@@ -5,8 +5,8 @@
         <span class="title font-weight-light">Background</span>
     </v-card-title>
     <v-row>
-        <v-col v-for="i in 18" :key="i">
-            <activity />
+        <v-col v-for="(item, i) in activities" :key="i" class="pa-0">
+            <activity :title="item.title" :descr="item.descr" :img="item.img" />
         </v-col>
     </v-row>
 </v-card>
@@ -17,6 +17,38 @@ export default {
     components: {
         activity: () => import('~/components/activity.vue'),
     },
-    data: () => ({}),
+    data: () => ({
+        activities: [{
+                img: '/images/ce.png',
+                title: 'Campus Expert',
+                descr: 'Being a github Campus expert for a year and suppourting the local FOSS community',
+            },
+            {
+                img: '/images/MSFT_LA.png',
+                title: 'MSFT learn Ambassador',
+                descr: 'Hosting and Leading the community to gain new skills and learn new technologies',
+            },
+            {
+                img: '/images/MSFT_SP.png',
+                title: 'MSFT Student Partner',
+                descr: 'Students partners are leaders in their community that help others to learn latest technologies.',
+            },
+            {
+                img: '/images/YGA.png',
+                title: 'YGA Volunteer',
+                descr: 'Double winged Volunteers are those who have the skills and care about humanity at the same time.',
+            },
+            {
+                img: '/images/Scout.png',
+                title: 'Scout Boy',
+                descr: 'Leading and teachning more than 100+ Scout boy about life and technology.',
+            },
+            {
+                img: '/images/DET.png',
+                title: 'Event organiser',
+                descr: 'Students partners are leaders in their community that help others to learn latest technologies.',
+            },
+        ],
+    }),
 }
 </script>

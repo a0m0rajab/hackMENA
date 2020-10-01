@@ -13,7 +13,13 @@
             <situation />
         </v-row>
         <v-row>
-            <dmap />
+            <situation1 />
+        </v-row>
+        <v-row>
+            <background />
+        </v-row>
+        <v-row>
+            <plan />
         </v-row>
     </v-col>
 </v-row>
@@ -29,8 +35,9 @@ export default {
         Logo,
         VuetifyLogo,
         mcard: () => import('~/components/mcard.vue'),
-        situation: () => import('~/components/situation.vue'),
+        situation1: () => import('~/components/situation1.vue'),
         dmap: () => import('~/components/dmap.vue'),
+        plan: () => import('~/components/plan.vue'),
 
         background,
     },

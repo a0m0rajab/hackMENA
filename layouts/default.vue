@@ -1,6 +1,6 @@
 <template>
 <v-app dark>
-    <v-app-bar class="rounded-b-xl" :clipped-left="clipped" absolute app dense>
+    <v-app-bar class="rounded-b-xl" :clipped-left="clipped" app dense>
         <v-toolbar-title v-text="title" />
         <v-spacer />
         <div class="text-center">

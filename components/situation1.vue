@@ -2,22 +2,19 @@
 <v-card class="col-12 mx-auto ma-2 rounded-xl" outlined>
     <v-card-title>
         <v-icon large left>mdi-account-reactivate</v-icon>
-        <span class="title font-weight-light">Turkey</span>
+        <span class="title font-weight-light">MENA</span>
     </v-card-title>
     <v-row>
         <v-col class="col-12" sm="8">
-            <TRmap />
+            <dmap />
         </v-col>
         <v-col class="col-12" sm="4">
             <h1>Situation</h1>
-            <h2>2 Campus Experts</h2>
-            <h2>2 Universities</h2>
-            <h2>2 Province</h2>
+            <h2>6 Campus Experts</h2>
+            <h2>6 Universities</h2>
+            <h2>4 Countries</h2>
             <h1>Possibilities</h1>
-            <h2>400k+ Students</h2>
-            <p>Students from relative majors</p>
-            <h2>200+ University</h2>
-            <h2>81 Province</h2>
+            <h2>22+ Countries</h2>
         </v-col>
     </v-row>
 </v-card>

@@ -7,16 +7,16 @@
             </div>
         </v-row>
         <v-row>
-            <background />
+            <background class="col-12" />
         </v-row>
         <v-row>
             <situation />
         </v-row>
-        <v-row>
+        <v-row cols="12">
             <situation1 />
         </v-row>
         <v-row>
-            <background />
+            <background class="col-12" />
         </v-row>
         <v-row>
             <plan />

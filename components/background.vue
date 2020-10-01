@@ -20,22 +20,22 @@ export default {
     data: () => ({
         activities: [{
                 img: '/images/ce.png',
-                title: 'Campus Expert',
+                title: 'Campus <br>Expert',
                 descr: 'Being a github Campus expert for a year and suppourting the local FOSS community',
             },
             {
                 img: '/images/MSFT_LA.png',
-                title: 'MSFT learn Ambassador',
+                title: 'MSFT learn <br>Ambassador',
                 descr: 'Hosting and Leading the community to gain new skills and learn new technologies',
             },
             {
                 img: '/images/MSFT_SP.png',
-                title: 'MSFT Student Partner',
+                title: 'MSFT <br>Student <br>Partner',
                 descr: 'Students partners are leaders in their community that help others to learn latest technologies.',
             },
             {
                 img: '/images/YGA.png',
-                title: 'YGA Volunteer',
+                title: 'YGA <br>Volunteer',
                 descr: 'Double winged Volunteers are those who have the skills and care about humanity at the same time.',
             },
             {
@@ -45,7 +45,7 @@ export default {
             },
             {
                 img: '/images/DET.png',
-                title: 'Event organiser',
+                title: 'Event <br>organiser',
                 descr: 'Students partners are leaders in their community that help others to learn latest technologies.',
             },
         ],

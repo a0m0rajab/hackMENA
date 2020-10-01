@@ -1,6 +1,5 @@
 <template>
 <v-col col="12" class="rounded-xl">
-    <h4>Zoom:</h4>
     <vue-datamaps class="rounded-xl" :scope="scope" :data="data" :fills="fills" :bubblesConfig="bubblesConfig" bubbles @custom:popup-bubble="popupTemplate" :setProjection="setProjection('zoom')">
         <div slot="hoverBubbleInfo" class="hoverinfo" style="text-align: center">
             {{ popupData.name }}

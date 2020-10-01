@@ -4,8 +4,12 @@
         <v-toolbar-title v-text="title" />
         <v-spacer />
         <div class="text-center">
-            <v-btn small rounded color="primary" dark>CV</v-btn>
-            <v-btn small rounded color="primary" dark>Summary</v-btn>
+            <a href="/CV.pdf" download="CV.pdf">
+                <v-btn small rounded color="primary" dark>CV</v-btn>
+            </a>
+            <a href="/Summary.pdf" download="Summary.pdf">
+                <v-btn small rounded color="primary" dark>Summary</v-btn>
+            </a>
         </div>
     </v-app-bar>
     <v-main>

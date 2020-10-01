@@ -1,8 +1,10 @@
 <template>
-<v-col col="12">
+<v-col col="12" class="rounded-xl">
     <h4>Zoom:</h4>
-    <vue-datamaps :scope="scope" :data="data" :fills="fills" :bubblesConfig="bubblesConfig" bubbles @custom:popup-bubble="popupTemplate" :setProjection="setProjection('zoom')">
-        <div slot="hoverBubbleInfo" class="hoverinfo" style="text-align:center;">{{ popupData.name }}</div>
+    <vue-datamaps class="rounded-xl" :scope="scope" :data="data" :fills="fills" :bubblesConfig="bubblesConfig" bubbles @custom:popup-bubble="popupTemplate" :setProjection="setProjection('zoom')">
+        <div slot="hoverBubbleInfo" class="hoverinfo" style="text-align: center">
+            {{ popupData.name }}
+        </div>
     </vue-datamaps>
 </v-col>
 </template>
@@ -20,54 +22,82 @@ export default {
         return {
             scope: 'world',
             fills: {
-                gt50: d3.schemeCategory20[Math.floor(Math.random() * 20)],
-                eq50: d3.schemeCategory20b[Math.floor(Math.random() * 20)],
-                lt25: d3.schemeCategory20c[Math.floor(Math.random() * 20)],
-                gt75: d3.schemeCategory20[Math.floor(Math.random() * 20)],
-                lt50: d3.schemeCategory10[Math.floor(Math.random() * 10)],
-                eq0: d3.schemeCategory10[Math.floor(Math.random() * 1)],
-                pink: '#0fa0fa',
-                gt500: d3.schemeCategory10[Math.floor(Math.random() * 1)],
+                passive: '#E1AD01',
+                active: 'rgb(148, 0, 0)',
+                defaultFill: '#dddddd',
             },
             data: {
-                ZAF: {
-                    fillKey: 'gt50',
+                ARE: {
+                    fillKey: 'passive',
                 },
-                ZWE: {
-                    fillKey: 'lt25',
+                DJI: {
+                    fillKey: 'passive',
                 },
-                NGA: {
-                    fillKey: 'lt50',
+                IRQ: {
+                    fillKey: 'passive',
                 },
-                MOZ: {
-                    fillKey: 'eq50',
+                JOR: {
+                    fillKey: 'active',
                 },
-                MDG: {
-                    fillKey: 'eq50',
+                KWT: {
+                    fillKey: 'passive',
                 },
-                EGY: {
-                    fillKey: 'gt75',
-                },
-                TZA: {
-                    fillKey: 'gt75',
+                LBN: {
+                    fillKey: 'passive',
                 },
                 LBY: {
-                    fillKey: 'red',
+                    fillKey: 'passive',
+                },
+                MRT: {
+                    fillKey: 'passive',
+                },
+                OMN: {
+                    fillKey: 'passive',
+                },
+                ISR: {
+                    fillKey: 'passive',
+                },
+                QAT: {
+                    fillKey: 'passive',
+                },
+                SAU: {
+                    fillKey: 'passive',
+                },
+                SYR: {
+                    fillKey: 'passive',
+                },
+                YEM: {
+                    fillKey: 'passive',
+                },
+                TUR: {
+                    fillKey: 'active',
+                },
+                MAR: {
+                    fillKey: 'passive',
+                },
+                EGY: {
+                    fillKey: 'active',
                 },
                 DZA: {
-                    fillKey: 'gt500',
+                    fillKey: 'active',
                 },
                 SSD: {
-                    fillKey: 'pink',
+                    fillKey: 'passive',
+                },
+                SDN: {
+                    fillKey: 'passive',
                 },
                 SOM: {
-                    fillKey: 'gt50',
+                    fillKey: 'passive',
                 },
-                GIB: {
-                    fillKey: 'eq50',
+                TUN: {
+                    fillKey: 'passive',
                 },
-                AGO: {
-                    fillKey: 'lt50',
+                PSE: {
+                    fillKey: 'passive',
+                },
+                '-99': {
+                    fillKey: 'passive',
                 },
             },
 

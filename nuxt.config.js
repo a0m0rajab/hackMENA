@@ -6,9 +6,9 @@ export default {
 
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
-  router: {
-    base: '/hackMENA/'
-  },
+  // router: {
+  //   base: '/hackMENA/'
+  // },
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     titleTemplate: '%s - hackMENA',

@@ -3,7 +3,7 @@
     <v-row>
         <v-col cols="12" lg="4">
             <v-avatar class="profile" color="grey" size="164" tile>
-                <v-img style="background-color: white" src="hackMENA/images/MeEmpty.png"></v-img>
+                <v-img style="background-color: white" src="images/MeEmpty.png"></v-img>
             </v-avatar>
             <v-list-item two-line>
                 <v-list-item-content>

@@ -4,10 +4,10 @@
         <v-toolbar-title v-text="title" />
         <v-spacer />
         <div class="text-center">
-            <a href="/CV.pdf" download="CV.pdf">
+            <a href="hackMENA/CV.pdf" download="CV.pdf">
                 <v-btn small rounded color="primary" dark>CV</v-btn>
             </a>
-            <a href="/Summary.pdf" download="Summary.pdf">
+            <a href="hackMENA/Summary.pdf" download="Summary.pdf">
                 <v-btn small rounded color="primary" dark>Summary</v-btn>
             </a>
         </div>

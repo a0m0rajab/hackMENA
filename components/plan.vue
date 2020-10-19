@@ -34,6 +34,11 @@ export default {
                 content: 'Contacting the universities to let them know about open source projects and program to start suppourt them and their local events',
             },
             {
+                slogan: 'Let`s Meet',
+                title: 'Local Events',
+                content: 'Hosting local events with local societies, communities and groups to talk about the benefits of open source to the society and how it can help, beside that I would advocate and talk about Campus Expert program and share some great stories about it.',
+            },
+            {
                 slogan: 'Almost there',
                 title: 'First 20 universities',
                 content: 'After reaching to 10 universities and communities we can have a joint conference online to share their knowledge skills and talk about Open Source',
